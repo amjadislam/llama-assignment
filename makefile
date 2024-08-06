@@ -56,5 +56,5 @@ clean:
 
 # Run the whole project (build, up, and optionally run tests)
 .PHONY: run
-run: build up
+run: up
 	@echo "Project is up and running, and tests have been executed."
